@@ -1,7 +1,7 @@
 import "./App.css";
 import Hrosecton from './Components/HeroSction'
 import MySkills from "./Components/MySkills";
-
+import Projects from "./Components/Projects";
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       <hr/>
       <MySkills/>
       <hr/>
+      <Projects />
     </div>
   );
 }
